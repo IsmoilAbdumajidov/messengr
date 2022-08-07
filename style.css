@@ -164,3 +164,8 @@ input ,select{
 ::placeholder{
     color: #FFF !important;
 }
+@media screen and (max-width:420px) {
+    .nike_name{
+        font-size: 15px;
+    }
+}
