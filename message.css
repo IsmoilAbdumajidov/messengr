@@ -90,13 +90,13 @@ a {
 }
 
 .nav_title {
-    height: 25vh;
+    height: 30vh;
 }
 
 .users {
     background-color: transparent;
     overflow-y: scroll;
-    height: 75vh;
+    height: 70vh;
 }
 
 .user_top {
@@ -389,7 +389,16 @@ a {
         transition: all .3s linear;
         left: 55%;
         top: 55%;
-        transform: translateX(-60%);
+        transform: translateX(-60%);}
+        .nav_title {
+            height: 25vh;
+        }
+
+        .users {
+            background-color: transparent;
+            overflow-y: scroll;
+            height: 75vh;
+        }
 
     }
 }
