@@ -134,6 +134,7 @@ a {
     background-color: transparent;
     position: relative;
     color: var(--fontcolor);
+    padding: 10px 0;
 }
 
 .user_message::-webkit-scrollbar {
