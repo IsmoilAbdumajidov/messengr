@@ -375,15 +375,6 @@ a {
         z-index: 0;
         /* display: none; */
     }
-      .nav_title {
-            height: 15%!important;
-        }
-
-        .users {
-            background-color: transparent;
-            overflow-y: scroll;
-            height: 75% !important;
-        }
 }
 @media screen and (max-width:400px) {
     .fradd,
@@ -400,7 +391,7 @@ a {
         top: 55%;
         transform: translateX(-60%);}
         .nav_title {
-            height: 20% !important;
+            height: 15% !important;
         }
 
         .users {
@@ -409,4 +400,14 @@ a {
             height: 75% !important;
         }
 
+}
+@media screen and (max-width:500px) {
+     .nav_title {
+         height: 20% !important;
+     }
+
+     .users {
+         background-color: transparent;
+         overflow-y: scroll;
+         height: 75% !important;}
 }
