@@ -375,6 +375,15 @@ a {
         z-index: 0;
         /* display: none; */
     }
+      .nav_title {
+            height: 25vh !important;
+        }
+
+        .users {
+            background-color: transparent;
+            overflow-y: scroll;
+            height: 75vh !important;
+        }
 }
 @media screen and (max-width:400px) {
     .fradd,
