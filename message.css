@@ -376,13 +376,13 @@ a {
         /* display: none; */
     }
       .nav_title {
-            height: 25vh !important;
+            height: 25%!important;
         }
 
         .users {
             background-color: transparent;
             overflow-y: scroll;
-            height: 75vh !important;
+            height: 75% !important;
         }
 }
 @media screen and (max-width:400px) {
@@ -400,13 +400,13 @@ a {
         top: 55%;
         transform: translateX(-60%);}
         .nav_title {
-            height: 25vh !important;
+            height: 25% !important;
         }
 
         .users {
             background-color: transparent;
             overflow-y: scroll;
-            height: 75vh !important;
+            height: 75% !important;
         }
 
 }
