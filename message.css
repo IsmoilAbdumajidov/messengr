@@ -335,9 +335,17 @@ a {
      width: 200px;
      z-index: 1;
      transition: all .3s linear;
-     left: 60%;
+     left: 55%;
+     top: 50%;
      transform: translateX(-60%);
      
+}
+.fradd input,
+.ban input {
+    margin-right: 10px;
+}
+.pointer{
+    cursor: pointer;
 }
 
 
@@ -366,5 +374,22 @@ a {
         position: relative;
         z-index: 0;
         /* display: none; */
+    }
+}
+@media screen and (max-width:400px) {
+    .fradd,
+    .ban {
+        background: var(--bgColor);
+        border-radius: 5px;
+        padding: 2px 50px;
+        box-shadow: 0 0 7px var(--shadow);
+        position: absolute;
+        width: 200px;
+        z-index: 1;
+        transition: all .3s linear;
+        left: 55%;
+        top: 55%;
+        transform: translateX(-60%);
+
     }
 }
