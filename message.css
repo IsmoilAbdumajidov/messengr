@@ -391,13 +391,13 @@ a {
         top: 55%;
         transform: translateX(-60%);}
         .nav_title {
-            height: 15vh;
+            height: 25vh !important;
         }
 
         .users {
             background-color: transparent;
             overflow-y: scroll;
-            height: 75vh;
+            height: 75vh !important;
         }
 
 }
