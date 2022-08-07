@@ -129,7 +129,7 @@ a {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
-    height: 70vh;
+    height: 60vh;
     /* padding: 20px; */
     background-color: transparent;
     position: relative;
