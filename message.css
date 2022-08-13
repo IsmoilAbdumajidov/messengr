@@ -114,7 +114,7 @@ a {
     align-items: center;
     padding: 0px 10px;
     gap: 10px;
-    min-height: 80px;
+    min-height: 70px;
 
 }
 
@@ -385,12 +385,12 @@ a {
 @media screen and (max-height:500px) {
     .user_bottom{
         /* background: red; */
-        height: 25vh;
+        height: 27vh;
         
     }
     .user_top{
         /* background: #000; */
-        height: 25vh;
+        height: 23vh;
     }
     .user_message{
         height: 50vh;
