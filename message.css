@@ -93,6 +93,7 @@ a {
     height: 30vh;
     position: relative;
     z-index: 100;
+    min-height: 155px;
 
 }
 
@@ -100,6 +101,8 @@ a {
     background-color: transparent;
     overflow-y: scroll;
     height: 70vh;
+    background: rgb(124, 38, 38);
+    
 }
 
 .user_top {
@@ -111,6 +114,7 @@ a {
     align-items: center;
     padding: 0px 10px;
     gap: 10px;
+    min-height: 80px;
 
 }
 
@@ -125,6 +129,7 @@ a {
     display: flex;
     justify-content: center;
     color: var(--fontcolor);
+    /* min-height: 70px; */
 }
 
 .user_message {
@@ -345,6 +350,7 @@ a {
 
 @media screen and (max-width:991px) {
 
+
     .navbar_btn,
     .left_btn {
         display: block;
@@ -369,4 +375,21 @@ a {
         z-index: 0;
         /* display: none; */
     }
+}
+@media screen and (max-height:500px) {
+    .user_bottom{
+        /* background: red; */
+        height: 25vh;
+        
+    }
+    .user_top{
+        /* background: #000; */
+        height: 25vh;
+    }
+    .user_message{
+        height: 50vh;
+    }
+    .users{
+        height: 67vh;
+    }    
 }
