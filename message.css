@@ -90,7 +90,7 @@ a {
 }
 
 .nav_title {
-    height: 30vh;
+    height: 160px !important;
     position: relative;
     z-index: 100;
     min-height: 155px;
@@ -100,8 +100,8 @@ a {
 .users {
     background-color: transparent;
     overflow-y: scroll;
-    height: 70vh;
-    background: rgb(124, 38, 38);
+    height: 75vh;
+    background: var(--bgColor);
     
 }
 
@@ -376,6 +376,12 @@ a {
         /* display: none; */
     }
 }
+@media screen and (max-height:620px) {
+    .users{
+        height: 70vh;
+    } 
+}
+
 @media screen and (max-height:500px) {
     .user_bottom{
         /* background: red; */
